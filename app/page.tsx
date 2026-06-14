@@ -163,6 +163,18 @@ export default function Home() {
             Mais <span>inteligência.</span>
           </h1>
 
+          <div className="mobile-hero-logo" aria-hidden="true">
+            <div className="mobile-logo-orbit" />
+            <Image
+              src="/generated-1781476266729.png"
+              alt=""
+              fill
+              priority
+              sizes="(max-width: 820px) 92vw, 1px"
+            />
+            <span>Inteligência que enxerga oportunidades</span>
+          </div>
+
           <p className="hero-description">
             Criamos automações e agentes de IA que trabalham pelo seu negócio,
             reduzem custos e transformam processos em resultados.
