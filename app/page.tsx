@@ -18,6 +18,7 @@ import {
   X,
   Zap,
 } from "lucide-react";
+import BookingCalendar from "./components/BookingCalendar";
 
 const whatsappUrl =
   "https://wa.me/5522992724146?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Gemma%20e%20quero%20automatizar%20meu%20neg%C3%B3cio.";
@@ -360,6 +361,19 @@ export default function Home() {
                 <p>{item.text}</p>
               </article>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section booking" id="agendamento">
+        <div className="container">
+          <div className="booking-heading">
+            <span className="section-kicker">Vamos conversar?</span>
+            <h2>Agende sua reunião</h2>
+            <p>Escolha um horário no calendário abaixo para conversarmos sobre como a IA pode acelerar o seu negócio.</p>
+          </div>
+          <div className="booking-card">
+            <BookingCalendar />
           </div>
         </div>
       </section>

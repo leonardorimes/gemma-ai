@@ -855,6 +855,54 @@ summary {
   background: #070912;
 }
 
+/* ── Booking Section ─────────────────────────── */
+.booking {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(53, 82, 183, 0.09), transparent 40%),
+    var(--bg);
+  border-top: 1px solid var(--line);
+}
+
+.booking-heading {
+  max-width: 700px;
+  margin: 0 auto 56px;
+  text-align: center;
+}
+
+.booking-heading .section-kicker {
+  justify-content: center;
+}
+
+.booking-heading .section-kicker::before {
+  display: none;
+}
+
+.booking-heading h2 {
+  margin: 17px 0 20px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: clamp(43px, 4vw, 61px);
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+}
+
+.booking-heading > p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.booking-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+
 .cta-section::before,
 .cta-section::after {
   content: "";
